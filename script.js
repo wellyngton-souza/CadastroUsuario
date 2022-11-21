@@ -14,6 +14,7 @@ function tema_escuro() {
     var body = document.getElementById('body');
     var button1 = document.getElementById('button1');
     var button2 = document.getElementById('button2');
+    var button3 = document.getElementById('button3');
     var navbar = document.getElementById('navbar');
     var label = document.getElementById('label');
     var texbox = document.getElementById('texbox');
@@ -23,6 +24,7 @@ function tema_escuro() {
         body.style.color = 'white';
         button1.style.color = 'white';
         button2.style.color = 'white';
+        button3.style.color = 'white';
         navbar.style.backgroundColor = 'rgb(93, 0, 112)';
         label.style.border = 'solid 0.15rem';
         label.style.padding = '0.5rem 1rem';
@@ -36,6 +38,7 @@ function tema_escuro() {
         body.style.color = 'black';
         button1.style.color = 'black';
         button2.style.color = 'black';
+        button3.style.color = 'black';
         navbar.style.backgroundColor = 'rgb(215, 24, 253)';
         label.style.border = 'none';
         texbox.style.color = 'black';
