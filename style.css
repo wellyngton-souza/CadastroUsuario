@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(245, 245, 245);
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: rgb(215, 24, 253);
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.center-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#check {
+    visibility: hidden;
+}
+
+label {
+    color: white;
+}
+
+.box-transparent{
+    background-color: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    height: 2rem;
+}
+
+.box-pesquisa {
+    visibility: hidden;
+    background-color: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    height: 2rem;
+    border-color: white;
+    color: rgb(245, 245, 245);
+}
+
+input[type=submit]{
+    background-color: transparent;
+    border: solid 0.15rem;
+    padding: 0.5rem 1rem;
+    border-left:transparent;
+    border-right:transparent;
+    border-top: transparent;
+}
+
+h3 {
+    color: rgb(245, 245, 245);
+}
+
+input[type=button]:hover {
+    border-color: rgb(215, 24, 253);
+} input[type=submit]:hover {
+    border-color: rgb(215, 24, 253);
+} .box-transparent:hover {
+    border-color: red;
+} .box-pesquisa::placeholder {
+    color: white;
+}

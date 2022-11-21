@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="nav-bar" id="navbar">
+        <div class="flex-nav-bar">
+            <h3>Minha Pagina</h3>
+        </div>
+        <div class="flex-nav-bar">
+            <input type="text" placeholder="Pesquisar" class="box-pesquisa"  id="barra">
+            <input type="checkbox" onclick="tema_escuro()" id="check">
+            <label for="check" id="label">Tema escuro</label>
+        </div>
+    </div>
+    <form action="https://paginawebdesk.000webhostapp.com/inserirCliente.php" method="post">
+        <div class="center-text">
+            <h2>Cadastro de Clientes</h2>
+            <div>
+                <p><input type="text" placeholder="Nome"  class="box-transparent" name="Nome" id="texbox"></p>
+                <p><input type="text" placeholder="Gmail"  class="box-transparent" name="Gmail" id="texbox"></p>
+                <p><input type="text" placeholder="Telefone"  class="box-transparent" name="Telefone" id="texbox"></p>
+                <p><input type="text" placeholder="Fornecedor"  class="box-transparent" name="Fornecedor" id="texbox"></p>
+                <p><input type="text" placeholder="Conferente"  class="box-transparent" name="Conferente" id="texbox"></p>
+                <p><input type="submit" value="Cadastrar" id="button1"></p>
+    </form>
+    <form action="https://paginawebdesk.000webhostapp.com/consultaCliente.php" method="post">
+        <input type="submit" value="Pesquisar" onclick="ativarPesquisa()" id="button2">
+    </form>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
