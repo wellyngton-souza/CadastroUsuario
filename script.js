@@ -1,4 +1,4 @@
-var body = document.getElementById('corpo');
+var body = document.getElementById('body');
 body.style.cssText =
     'background-color: rgb(245, 245, 245);' +
     'margin: 0;' +
