@@ -3,6 +3,19 @@ body.style.cssText =
     'background-color: rgb(245, 245, 245);' +
     'margin: 0;' +
     'padding: 0;';
+var navbar = document.getElementById('navbar');
+navbar.style.cssText =
+    'display: flex;' +
+    'background-color: rgb(215, 24, 253);' +
+    'justify-content: space-around;'+
+    'align-items: center;'+
+    'flex-flow: column wrap;';
+var centerText = document.getElementById('centerText');
+centerText.style.cssText =
+    'display: flex;' +
+    'flex-direction: column;' +
+    'align-items: center;'+
+    'justify-content: center;';
     
 function ativarPesquisa() {
     var barra = document.getElementById('barra');

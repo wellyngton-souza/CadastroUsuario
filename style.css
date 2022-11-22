@@ -1,15 +1,4 @@
-.nav-bar {
-    display: flex;
-    background-color: rgb(215, 24, 253);
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: column wrap;
-}.center-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}#check {
+#check {
     visibility: hidden;
 }label {
     color: white;
