@@ -1,3 +1,9 @@
+var body = document.getElementById('corpo');
+body.style.cssText =
+    'background-color: rgb(245, 245, 245);' +
+    'margin: 0;' +
+    'padding: 0;';
+    
 function ativarPesquisa() {
     var barra = document.getElementById('barra');
     if (barra.style.visibility != 'visible')

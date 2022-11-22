@@ -1,8 +1,4 @@
-body {
-    background-color: rgb(245, 245, 245);
-    margin: 0;
-    padding: 0;
-}.nav-bar {
+.nav-bar {
     display: flex;
     background-color: rgb(215, 24, 253);
     justify-content: space-around;
